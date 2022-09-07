@@ -13,3 +13,4 @@ json: --format message --out=results/logs/<%=timestamp%>_report.json
 html_report: --format html --out=results/html/<%=timestamp%>_report.html
 pretty: --format pretty
 progress: --format progress
+# allure: --format AllureCucumber::Formatter --out=results/allure-results

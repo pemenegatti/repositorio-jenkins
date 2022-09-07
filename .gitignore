@@ -2,3 +2,4 @@
 .vscode/*
 screenshots/*
 results/*
+Gemfile.lock
