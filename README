@@ -1,6 +1,17 @@
 1 - Projeto consiste em criar cadastro e realizar login.
-2 - Pré-requisito: possuir Ruby instalado (versão do Ruby usada no projeto 2.6.6)
+2 - Pré-requisito: possuir Ruby instalado (versão do Ruby usada no projeto 2.7.0 ou superior)
 3 - Passo a passo para a execução:
         passo 1: realizar a instalação do Ruby (https://www.ruby-lang.org/pt/downloads/) e clonar o projeto para a sua maquia,
         passo 2: no diretorio do projeto executar os seguintes comandos: gem install bundle, logo após executar o comando bundler install.
-        passo 3: para executar o projeto basta rodar o comando cucumber no diretorio do projeto apos executar o passo 2.
+        passo 3: para executar o projeto basta rodar os seguintes comandos
+        
+        ### Executar localmente (minha maquina)
+        '
+        bundle exec cucumber
+        '
+        
+        ### Executar no servidor de CI (gerando reposts JSON)
+        '
+        bundle exec cucumber -p ci
+        '
+        
