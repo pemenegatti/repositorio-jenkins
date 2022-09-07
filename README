@@ -6,12 +6,12 @@ passo 2: no diretorio do projeto executar os seguintes comandos: gem install bun
 passo 3: para executar o projeto basta rodar os seguintes comandos
         
 ### Executar localmente (minha maquina)
-'
+`
 bundle exec cucumber
-'
+`
         
 ### Executar no servidor de CI (gerando reposts JSON)
-'
+`
 bundle exec cucumber -p ci
-'
+`
         
