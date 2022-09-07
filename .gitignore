@@ -1,0 +1,4 @@
+# Blacklist
+.vscode/*
+screenshots/*
+results/*
