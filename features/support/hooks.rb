@@ -13,11 +13,11 @@ After do |scenario|
     Utils.tirar_foto(scenario_name.downcase!, 'passou')
   end
 
-  at_exit do
-    ReportBuilder.configure do |config|
-      config.input_path = 'results/cucumber_json'
-      config.report_path = 'results/report'
-    end
-    ReportBuilder.build_report
-  end
+  # at_exit do
+  #   ReportBuilder.configure do |config|
+  #     config.input_path = 'results/cucumber_json'
+  #     config.report_path = 'results/report'
+  #   end
+  #   ReportBuilder.build_report
+  # end
 end
